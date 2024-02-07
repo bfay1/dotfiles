@@ -1,0 +1,15 @@
+chsh -s /bin/bash
+echo $SHELL
+ls
+source .bashrc
+ls
+clear
+ls
+ll
+clear
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+clear
+ls
+brew install neovim
+brew install wget
+exit
