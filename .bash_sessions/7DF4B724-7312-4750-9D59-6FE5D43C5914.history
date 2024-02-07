@@ -1,0 +1,86 @@
+chsh -s /bin/bash
+ls
+ll
+ls
+ll
+ls
+ll
+echo $SHELL
+ls
+ll
+ls -alF
+brew install wget
+man man
+clear
+man brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+brew install neovim
+man brew
+cat .bash_profile 
+clear'
+echo $PATH
+brew install neovim
+brew doctor
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+cat .bash_profile 
+vi .bash_profile 
+echo $PATH
+brew doctor
+sudo xcode-select --install
+clear
+brew uninstall --force homebrew
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
+brew doctor
+man brew
+brew install neovim
+clear
+ls
+ll
+ls
+ls -alF
+clear
+ls
+ll
+clear
+ls
+clear
+ls
+ll
+nvim .bashrc 
+exit
+git@githublkasdjfacç.com:bfay1/neovim.git
+ls
+brew install ripgrep
+rg nvim
+clear
+ls
+ll
+echo $XDG_CONFIG_HOME
+ls -alF
+nvim --version
+mkdir .config
+cd .config/
+git clone git@github.com:bfay1/neovim.git .
+ssh-keygen -t ed25519 -C "jbf2173@columbia.edu"
+clear
+ls .ssh
+ll
+ls -alF
+cd ../
+ll
+ls -alF
+cd .ssh/
+ls
+cat id_ed25519.pub 
+git clone git@github.com:bfay1/neovim.git
+ls
+rm -rf neovim/
+cd ../.config/
+git clone git@github.com:bfay1/neovim.git .
+ls
+clear
+cd ../
+ls
+nvim .bashrc 

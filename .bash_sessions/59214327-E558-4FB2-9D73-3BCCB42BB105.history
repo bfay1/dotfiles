@@ -1,0 +1,29 @@
+chsh -s /bin/bash
+ls
+ll
+ls
+ll
+ls
+ll
+echo $SHELL
+ls
+ll
+ls -alF
+brew install wget
+man man
+clear
+man brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+brew install neovim
+man brew
+cat .bash_profile 
+clear'
+echo $PATH
+brew install neovim
+brew doctor
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+cat .bash_profile 
+vi .bash_profile 
+echo $PATH
