@@ -1,0 +1,13 @@
+color = ''
+project-name = 'default'
+[default]
+account_id = 'acct_1PhjUjLJtrByz11Y'
+device_name = 'roderick.local'
+display_name = 'mentis.chat'
+live_mode_api_key = 'rk_live_***********************************************************************************************H14O'
+live_mode_key_expires_at = '2024-10-28'
+live_mode_pub_key = 'pk_live_51PhjUjLJtrByz11YRKGOSYeegn4rR4vwZyJC3OAnitIAiu3VQa2pehVSiRKcF7SXCsgwCSAjPiyl5ZpUBOPMknix00FD68fd2v'
+test_mode_api_key = 'rk_test_51PhjUjLJtrByz11YKhQvwmTnpU3RBjGhBjkATynGPbybQzQu0DZ57OngbcmMLFiugXhAGwH9Zpt5IOfHju3jcpqe00w2ffZIAv'
+test_mode_key_expires_at = '2024-10-28'
+test_mode_pub_key = 'pk_test_51PhjUjLJtrByz11YEOYVG8pduKAGPivqdfy8wqvCzsDcw97Gxgbu440VyMMe0KKzPkVtFH3kELB79l0skMxdmpFW000k78ZXd9'
+
