@@ -7,3 +7,5 @@ source ~/.bashrc
 
 # opam configuration
 test -r /Users/brendan/.opam/opam-init/init.sh && . /Users/brendan/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+. "$HOME/.cargo/env"
