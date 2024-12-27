@@ -17,6 +17,7 @@
     "light": "One Light",
     "dark": "Gruvbox Dark"
   },
+  "terminal": { "font_family": "Hack Nerd Font Propo" },
   "languages": {
     "JavaScript": {
       "format_on_save": {
