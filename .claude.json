@@ -1,0 +1,189 @@
+{
+  "numStartups": 3,
+  "installMethod": "native",
+  "autoUpdates": false,
+  "theme": "dark-daltonized",
+  "tipsHistory": {
+    "new-user-warmup": 2,
+    "plan-mode-for-complex-tasks": 2,
+    "terminal-setup": 2
+  },
+  "cachedGrowthBookFeatures": {
+    "tengu_oboe": true,
+    "tengu_event_sampling_config": {},
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": true,
+    "tengu_penguins_enabled": true,
+    "tengu_worktree_mode": true,
+    "tengu_mcp_tool_search": true,
+    "tengu_marble_anvil": true,
+    "tengu_tool_pear": false,
+    "tengu_scarf_coffee": false,
+    "tengu_chomp_inflection": true,
+    "tengu_marble_sandcastle": true,
+    "tengu_penguins_off": null,
+    "tengu_streaming_text": false,
+    "tengu_silver_lantern": false,
+    "tengu_birthday_hat": true,
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": ""
+    },
+    "tengu_snippet_save": false,
+    "tengu_pr_status_cli": true,
+    "tengu_mcp_elicitation": false,
+    "tengu_keybinding_customization_release": true,
+    "tengu_post_compact_survey": false,
+    "tengu_copper_lantern": false,
+    "tengu_claudeai_mcp_connectors": true,
+    "tengu_pebble_leaf_prune": false,
+    "tengu_pid_based_version_locking": true,
+    "enhanced_telemetry_beta": false,
+    "tengu_birch_mist": false,
+    "tengu_tool_search_unsupported_models": [
+      "haiku"
+    ],
+    "tengu_vinteuil_phrase": true,
+    "tengu_system_prompt_global_cache": true,
+    "tengu_attribution_header": true,
+    "tengu_mulberry_fog": false,
+    "tengu_coral_fern": false,
+    "tengu_scratch": false,
+    "tengu_moth_copse": false,
+    "tengu_cache_plum_violet": true,
+    "tengu_streaming_tool_execution2": true,
+    "tengu_fgts": false,
+    "tengu_tst_kx7": false,
+    "tengu_plan_mode_interview_phase": false,
+    "tengu_prompt_cache_1h_config": {
+      "allowlist": [
+        "repl_main_thread*",
+        "sdk"
+      ]
+    },
+    "tengu_disable_streaming_to_non_streaming_fallback": false
+  },
+  "firstStartTime": "2026-02-22T17:48:35.565Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "userID": "2bf40a3c2492b66fa6d183226025f1a5689727efc2423e79fe55b2bba2c3ad47",
+  "cachedChromeExtensionInstalled": false,
+  "changelogLastFetched": 1771789817571,
+  "autoUpdatesProtectedForNative": true,
+  "clientDataCache": {
+    "data": {},
+    "timestamp": 1771812857846
+  },
+  "oauthAccount": {
+    "accountUuid": "ac98751e-614c-4d29-8e59-0691c75531b3",
+    "emailAddress": "jbrendanfay@gmail.com",
+    "organizationUuid": "ba30d2a9-9ebb-43d0-a98d-31676679fc0d",
+    "hasExtraUsageEnabled": false,
+    "billingType": "stripe_subscription",
+    "accountCreatedAt": "2024-10-25T15:39:15.530101Z",
+    "subscriptionCreatedAt": "2026-02-22T19:48:08.129977Z",
+    "displayName": "Brendan"
+  },
+  "claudeCodeFirstTokenDate": "2026-02-22T19:50:05.544219Z",
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.50",
+  "lastReleaseNotesSeen": "2.1.50",
+  "projects": {
+    "/Users/brendan": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 35444,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.91,
+      "lastFpsLow1Pct": 282.32,
+      "lastModelUsage": {},
+      "lastSessionId": "91caada9-1246-4197-8abf-7f6f6c2166fc",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 32,
+        "frame_duration_ms_min": 0.22029199999997218,
+        "frame_duration_ms_max": 3.5420840000006137,
+        "frame_duration_ms_avg": 1.7697136249999819,
+        "frame_duration_ms_p50": 1.5392085000003135,
+        "frame_duration_ms_p95": 3.1745062500001495,
+        "frame_duration_ms_p99": 3.464131710000593
+      }
+    },
+    "/Users/brendan/.config/nvim/lua/plugins": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastCost": 0.000366,
+      "lastAPIDuration": 638,
+      "lastAPIDurationWithoutRetries": 635,
+      "lastToolDuration": 0,
+      "lastDuration": 8341,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 291,
+      "lastTotalOutputTokens": 15,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 9.17,
+      "lastFpsLow1Pct": 122.28,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 291,
+          "outputTokens": 15,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000366
+        }
+      },
+      "lastSessionId": "4af33e54-a577-477c-901d-d8dc7474a4f5",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 71,
+        "frame_duration_ms_min": 0.17620799999986048,
+        "frame_duration_ms_max": 8.17766599999959,
+        "frame_duration_ms_avg": 1.3757875633802692,
+        "frame_duration_ms_p50": 1.0590830000001006,
+        "frame_duration_ms_p95": 2.928645999999844,
+        "frame_duration_ms_p99": 5.821816699999899
+      }
+    }
+  },
+  "hasShownOpus46Notice": {
+    "ba30d2a9-9ebb-43d0-a98d-31676679fc0d": true
+  },
+  "penguinModeOrgEnabled": false,
+  "groveConfigCache": {
+    "ac98751e-614c-4d29-8e59-0691c75531b3": {
+      "grove_enabled": true,
+      "timestamp": 1771789817835
+    }
+  },
+  "cachedExtraUsageDisabledReason": "org_level_disabled",
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "birthdayHatAnimationCount": 2
+}

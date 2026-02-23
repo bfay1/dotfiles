@@ -1,0 +1,472 @@
+2026-02-23T02:14:17.473Z [DEBUG] Failed to check enabledPlatforms: TypeError: undefined is not an object (evaluating 'pK.join')
+2026-02-23T02:14:17.525Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-23T02:14:17.525Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-23T02:14:17.525Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-23T02:14:17.525Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-23T02:14:17.527Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-02-23T02:14:17.528Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-02-23T02:14:17.528Z [DEBUG] [STARTUP] Running setup()...
+2026-02-23T02:14:17.531Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/brendan/.claude/skills, project=[]
+2026-02-23T02:14:17.531Z [DEBUG] Error log sink initialized
+2026-02-23T02:14:17.536Z [DEBUG] [STARTUP] setup() completed in 8ms
+2026-02-23T02:14:17.536Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-02-23T02:14:17.536Z [DEBUG] Git remote URL: null
+2026-02-23T02:14:17.536Z [DEBUG] No git remote URL found
+2026-02-23T02:14:17.538Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-23T02:14:17.540Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default
+2026-02-23T02:14:17.540Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-23T02:14:17.540Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-23T02:14:17.540Z [DEBUG] Total plugin skills loaded: 0
+2026-02-23T02:14:17.540Z [DEBUG] Total plugin commands loaded: 0
+2026-02-23T02:14:17.540Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-23T02:14:17.540Z [DEBUG] Total plugin agents loaded: 0
+2026-02-23T02:14:17.542Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-23T02:14:17.543Z [DEBUG] [STARTUP] Commands and agents loaded in 7ms
+2026-02-23T02:14:17.543Z [DEBUG] Acquired PID lock for 2.1.50 (PID 7617)
+2026-02-23T02:14:17.543Z [DEBUG] Acquired PID lock on running version: /Users/brendan/.local/share/claude/versions/2.1.50
+2026-02-23T02:14:17.547Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-02-23T02:14:17.548Z [DEBUG] [keybindings] KeybindingSetup initialized with 103 bindings, 0 warnings
+2026-02-23T02:14:17.562Z [DEBUG] [keybindings] Watching for changes to /Users/brendan/.claude/keybindings.json
+2026-02-23T02:14:17.570Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-23T02:14:17.850Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.7617.1771812857850
+2026-02-23T02:14:17.850Z [DEBUG] Preserving file permissions: 100600
+2026-02-23T02:14:17.850Z [DEBUG] Temp file written successfully, size: 6358 bytes
+2026-02-23T02:14:17.850Z [DEBUG] Applied original permissions to temp file
+2026-02-23T02:14:17.850Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.7617.1771812857850 to /Users/brendan/.claude.json
+2026-02-23T02:14:17.851Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-23T02:14:21.392Z [DEBUG] Grove: Using fresh cached config
+2026-02-23T02:14:21.392Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-02-23T02:14:21.409Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-02-23T02:14:21.409Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-02-23T02:14:21.731Z [DEBUG] [STARTUP] showSetupScreens() completed in 4183ms
+2026-02-23T02:14:21.733Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-02-23T02:14:21.736Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-02-23T02:14:21.736Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-02-23T02:14:21.736Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-23T02:14:21.736Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-23T02:14:21.738Z [DEBUG] Total LSP servers loaded: 0
+2026-02-23T02:14:21.738Z [DEBUG] [STARTUP] MCP configs loaded in 4211ms
+2026-02-23T02:14:21.741Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-02-23T02:14:21.741Z [DEBUG] LSP manager initialized with 0 servers
+2026-02-23T02:14:21.741Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-23T02:14:21.743Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-02-23T02:14:21.743Z [DEBUG] Found 0 hook matchers in settings
+2026-02-23T02:14:21.743Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-02-23T02:14:21.743Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-02-23T02:14:21.743Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-02-23T02:14:21.744Z [DEBUG] LSP server manager initialized successfully
+2026-02-23T02:14:21.744Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-02-23T02:14:21.745Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-02-23T02:14:21.745Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.7617.1771812861745
+2026-02-23T02:14:21.746Z [DEBUG] Preserving file permissions: 100600
+2026-02-23T02:14:21.746Z [DEBUG] Temp file written successfully, size: 6358 bytes
+2026-02-23T02:14:21.746Z [DEBUG] Applied original permissions to temp file
+2026-02-23T02:14:21.746Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.7617.1771812861745 to /Users/brendan/.claude.json
+2026-02-23T02:14:21.746Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-23T02:14:21.763Z [DEBUG] [keybindings] KeybindingSetup initialized with 103 bindings, 0 warnings
+2026-02-23T02:14:21.779Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.7617.1771812861779
+2026-02-23T02:14:21.779Z [DEBUG] Preserving file permissions: 100600
+2026-02-23T02:14:21.779Z [DEBUG] Temp file written successfully, size: 6358 bytes
+2026-02-23T02:14:21.779Z [DEBUG] Applied original permissions to temp file
+2026-02-23T02:14:21.779Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.7617.1771812861779 to /Users/brendan/.claude.json
+2026-02-23T02:14:21.779Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-23T02:14:21.781Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-02-23T02:14:21.781Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-02-23T02:14:21.781Z [DEBUG] performStartupChecks called
+2026-02-23T02:14:21.781Z [DEBUG] Starting background plugin installations
+2026-02-23T02:14:21.781Z [DEBUG] performBackgroundPluginInstallations called
+2026-02-23T02:14:21.782Z [DEBUG] No CLAUDE.md/rules files found
+2026-02-23T02:14:21.783Z [DEBUG] Watching for changes in setting files /Users/brendan/.claude/settings.json, /Users/brendan/.claude/settings.local.json...
+2026-02-23T02:14:21.786Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-02-23T02:14:21.786Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-02-23T02:14:22.200Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-02-23T02:14:22.201Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-02-23T02:14:22.201Z [DEBUG] [claudeai-mcp] Gate returned: true
+2026-02-23T02:14:22.201Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-02-23T02:14:22.204Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-02-23T02:14:22.209Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-02-23T02:14:22.212Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-02-23T02:14:22.215Z [DEBUG] Fetching plugin security messages from https://raw.githubusercontent.com/anthropics/claude-plugins-official/refs/heads/security/security.json
+2026-02-23T02:14:22.217Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-02-23T02:14:22.225Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.235Z [DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+2026-02-23T02:14:22.235Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-02-23T02:14:22.235Z [DEBUG] [claudeai-mcp] Gate returned: true
+2026-02-23T02:14:22.235Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-02-23T02:14:22.238Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.249Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.252Z [DEBUG] MCP server "ide": Successfully connected to ws-ide server in 20ms
+2026-02-23T02:14:22.252Z [DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"hasResourceSubscribe":true,"serverVersion":{"name":"claudecode-neovim","version":"0.2.0"}}
+2026-02-23T02:14:22.252Z [DEBUG] [MCP] Server "ide" connected with subscribe=true
+2026-02-23T02:14:22.255Z [ERROR] MCP server "ide" Failed to fetch resources: MCP error -32601: Method not found
+2026-02-23T02:14:22.260Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.262Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.370Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-02-23T02:14:22.555Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-02-23T02:14:22.579Z [DEBUG] Security messages saved successfully
+2026-02-23T02:14:22.589Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-02-23T02:14:22.590Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.757Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:22.762Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/brendan/.local/share/claude/versions/2.1.50)
+2026-02-23T02:14:23.034Z [DEBUG] Checking for native installer update to version 2.1.50
+2026-02-23T02:14:23.035Z [DEBUG] Found 2.1.50 at /Users/brendan/.local/bin/claude, skipping install
+2026-02-23T02:14:23.038Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:24.888Z [DEBUG] rg error (signal=undefined, code=ERR_CHILD_PROCESS_STDIO_MAXBUFFER, stderr: rg: ./.Trash: Operation not permitted (os error 1)
+rg: ./Library/Caches/com.apple.ap.adprivacyd: Operation not permitted (os error 1)
+rg: ./Library/Caches/com.apple.homed: Operation not permitted (os error 1)
+rg: ./Library/HomeKit: Operation not permitted (os error 1)
+rg: ./Library/Messages: Operation not permitted (os error 1)
+rg: ./Library/Trial: Operation not permitted (os error 1)
+rg: ./Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/IdentityServices: Operation not permitted (os error 1)
+rg: ./Library/Autosave Information: Operation not permitted (os error 1)
+rg: ./Library/Daemon Containers: Operation not permitted (os error 1)
+rg: ./Library/com.apple.aiml.instrumentation: Operation not permitted (os error 1)
+rg: ./Library/Assistant/SiriVocabulary: Operation not permitted (os error 1)
+rg: ./Library/Application Support/CallHistoryDB: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/com.apple.MessagesLegacyTransferArchive: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.shortcuts: Operation not permitted (os error 1)
+rg: ./Library/Application Support/DifferentialPrivacy: Operation not permitted (os error 1)
+rg: ./Library/Application Support/FaceTime: Operation not permitted (os error 1)
+rg: ./Library/Application Support/CallHistoryTransactions: Operation not permitted (os error 1)
+rg: ./Library/Caches/FamilyCircle: Operation not permitted (os error 1)
+rg: ./Library/Application Support/Google/Chrome/RunningChromeVersion: No such file or directory (os error 2)
+rg: ./Library/Application Support/Google/Chrome/SingletonCookie: No such file or directory (os error 2)
+rg: ./Library/Application Support/Google/Chrome/SingletonLock: No such file or directory (os error 2)
+rg: ./Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Application Support/FileProvider: Operation not permitted (os error 1)
+rg: ./Library/Application Support/com.apple.TCC: Operation not permitted (os error 1)
+rg: ./Library/Application Support/Knowledge: Operation not permitted (os error 1)
+rg: ./Library/Application Support/com.apple.sharedfilelist: Operation not permitted (os error 1)
+rg: ./Library/Application Support/CloudDocs: Operation not permitted (os error 1)
+rg: ./Library/Sharing: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.stocks-news: Operation not permitted (os error 1)
+rg: ./Library/Weather: Operation not permitted (os error 1)
+rg: ./Library/Suggestions: Operation not permitted (os error 1)
+rg: ./Library/Biome: Operation not permitted (os error 1)
+rg: ./Library/Safari: Operation not permitted (os error 1)
+rg: ./Library/Accounts: Operation not permitted (os error 1)
+rg: ./Library/IntelligencePlatform: Operation not permitted (os error 1)
+rg: ./Library/Shortcuts: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.newsd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.calendar: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.notes.import: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.SiriTTS: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.amsondevicestoraged: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.liveactivitiesd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.portrait.BackgroundReplacement: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.appstoreagent: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.private.translation: Operation not permitted (os error 1)
+rg: ./Library/DuetExpertCenter: Operation not permitted (os error 1)
+rg: ./Library/AppleMediaServices: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.ArchiveUtility.PKSignedContainer: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.feedback: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.photolibraryd.private: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.coreservices.useractivityd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.swtransparency: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.telephonyutilities.callservicesd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.usernoted: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.stocks: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.siri.referenceResolution: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.icloud.searchpartyuseragent: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.accessibility.voicebanking: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.contacts: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.VoiceMemos.shared: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.secure-control-center-preferences: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.chronod: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.tipsnext: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.UserNotifications: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.spotlight: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.loginwindow.persistent-apps: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.sharingd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.tips: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.ManagedSettings: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.tv.sharedcontainer: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.gamecenter: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.corerepair: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.printtool: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.news: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.feedbacklogger: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.siri.remembers: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/com.apple.systempreferences.cache: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.controlcenter: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.weather: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.studentd: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/com.apple.stickersd.group: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.notes: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.iCloudDrive: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.findmy.findmylocateagent: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/com.apple.Home.group: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.reminders: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.Journal: Operation not permitted (os error 1)
+rg: ./Library/Caches/com.apple.containermanagerd: Operation not permitted (os error 1)
+rg: ./Library/Caches/com.apple.Safari: Operation not permitted (os error 1)
+rg: ./Library/Caches/CloudKit: Operation not permitted (os error 1)
+rg: ./Library/Caches/com.apple.HomeKit: Operation not permitted (os error 1)
+rg: ./Library/DoNotDisturb: Operation not permitted (os error 1)
+rg: ./Library/StatusKit: Operation not permitted (os error 1)
+rg: ./Library/CoreFollowUp: Operation not permitted (os error 1)
+rg: ./Library/Cookies: Operation not permitted (os error 1)
+rg: ./Library/Metadata/com.apple.IntelligentSuggestions: Operation not permitted (os error 1)
+rg: ./Library/Metadata/CoreSpotlight: Operation not permitted (os error 1)
+rg: ./Library/PersonalizationPortrait: Operation not permitted (os error 1)
+rg: ./Library/ContainerManager: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.Photos.PhotosFileProvider: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.replicatord: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.siri.ASR.shared: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.energykit: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.PegasusConfiguration: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.FamilyControls: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.mlhost: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.AppleSpell: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.FaceTime: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.scopedbookmarkagent: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.mobileslideshow.PhotosFileProvider: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.moments: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.Safari.SandboxBroker: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.transparency: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/com.apple.bird: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.mail: Operation not permitted (os error 1)
+rg: ./Library/Group Containers/group.com.apple.DeviceActivity: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.WallpaperIntents/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.iCal/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.languageassetd/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.Family/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.wallpaper.extension.macintosh/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.helpviewer.HelpViewer-Quicklook/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.settings-intents.mouse/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.SonicKit.diagnostics/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.MobileSMS.MessagesActionExtension/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.journal/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Filters: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Calendars: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/PDF Services: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/KeyBindings: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/ColorSync: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/QuickLook: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Mail: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.PassKit.PaymentAuthorizationUIExtension/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Components: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Dictionaries: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Images/People: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.siri.media-indexer/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Preferences/com.apple.security.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Preferences/com.apple.security_common.plist: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Application Support/SyncServices: No such file or directory (os error 2)
+rg: ./Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension/Data/Library/Application Support/AddressBook: Operation not permitted (os error 1)
+), 140920 results
+2026-02-23T02:14:24.888Z [ERROR] RangeError: RangeError: stdout maxBuffer length exceeded
+    at unknown
+    at onData (node:child_process:153:110)
+    at emit (node:events:95:22)
+    at addChunk (internal:streams/readable:264:47)
+    at readableAddChunkPushByteMode (internal:streams/readable:242:18)
+    at handleNumberResult (internal:streams/native-readable:69:18)
+    at <anonymous> (internal:streams/native-readable:43:68)
+    at processTicksAndRejections (native:7:39)
+2026-02-23T02:14:24.928Z [DEBUG] [FileIndex] ripgrep: 140920 files in 2724ms
+2026-02-23T02:14:25.199Z [DEBUG] [FileIndex] cache refresh completed in 3413ms (rust index)
+2026-02-23T02:14:28.788Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:29.508Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:29.514Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:30.507Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:39.201Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-23T02:14:51.345Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable

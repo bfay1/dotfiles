@@ -1,0 +1,81 @@
+2026-02-22T17:48:35.531Z [DEBUG] Failed to check enabledPlatforms: TypeError: undefined is not an object (evaluating 'pK.join')
+2026-02-22T17:48:35.565Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/Users/brendan/.claude.json'
+2026-02-22T17:48:35.565Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515565
+2026-02-22T17:48:35.565Z [DEBUG] Setting permissions for new file: 600
+2026-02-22T17:48:35.566Z [DEBUG] Temp file written successfully, size: 50 bytes
+2026-02-22T17:48:35.566Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515565 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.566Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.566Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-22T17:48:35.566Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-22T17:48:35.566Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-22T17:48:35.566Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-22T17:48:35.566Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515566
+2026-02-22T17:48:35.566Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:35.567Z [DEBUG] Temp file written successfully, size: 86 bytes
+2026-02-22T17:48:35.567Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:35.567Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515566 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.567Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.567Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515567
+2026-02-22T17:48:35.567Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:35.567Z [DEBUG] Temp file written successfully, size: 125 bytes
+2026-02-22T17:48:35.567Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:35.567Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515567 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.567Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.569Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/brendan/.claude/skills, project=[]
+2026-02-22T17:48:35.569Z [DEBUG] Error log sink initialized
+2026-02-22T17:48:35.570Z [DEBUG] Git remote URL: null
+2026-02-22T17:48:35.570Z [DEBUG] No git remote URL found
+2026-02-22T17:48:35.571Z [DEBUG] [render] initLayout starting
+2026-02-22T17:48:35.572Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-22T17:48:35.573Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515573
+2026-02-22T17:48:35.573Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:35.573Z [DEBUG] Temp file written successfully, size: 205 bytes
+2026-02-22T17:48:35.573Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:35.573Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515573 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.573Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.574Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default
+2026-02-22T17:48:35.574Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-22T17:48:35.574Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-22T17:48:35.574Z [DEBUG] Total plugin skills loaded: 0
+2026-02-22T17:48:35.574Z [DEBUG] Total plugin commands loaded: 0
+2026-02-22T17:48:35.574Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-22T17:48:35.574Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-22T17:48:35.575Z [DEBUG] [render] initLayout complete
+2026-02-22T17:48:35.579Z [DEBUG] Install: Starting installation process (force=false, target=undefined)
+2026-02-22T17:48:35.580Z [DEBUG] Install: Calling installLatest(channelOrVersion=latest, forceReinstall=false)
+2026-02-22T17:48:35.580Z [DEBUG] [render] first ink render: 202ms since process start
+2026-02-22T17:48:35.592Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-22T17:48:35.592Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515592
+2026-02-22T17:48:35.592Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:35.592Z [DEBUG] Temp file written successfully, size: 248 bytes
+2026-02-22T17:48:35.592Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:35.592Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515592 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.592Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.699Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782515699
+2026-02-22T17:48:35.699Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:35.699Z [DEBUG] Temp file written successfully, size: 289 bytes
+2026-02-22T17:48:35.699Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:35.699Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782515699 to /Users/brendan/.claude.json
+2026-02-22T17:48:35.699Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:35.773Z [DEBUG] Checking for native installer update to version 2.1.50
+2026-02-22T17:48:35.776Z [DEBUG] Downloading native installer version 2.1.50
+2026-02-22T17:48:50.656Z [DEBUG] Atomically installed binary to /Users/brendan/.local/share/claude/versions/2.1.50
+2026-02-22T17:48:50.658Z [DEBUG] Could not remove empty directory at /Users/brendan/.local/bin/claude: Error: ENOENT: no such file or directory, stat '/Users/brendan/.local/bin/claude'
+2026-02-22T17:48:50.658Z [DEBUG] Created directory /Users/brendan/.local/bin for symlink
+2026-02-22T17:48:50.658Z [DEBUG] Atomically updated symlink /Users/brendan/.local/bin/claude -> /Users/brendan/.local/share/claude/versions/2.1.50
+2026-02-22T17:48:50.658Z [DEBUG] Successfully updated to version 2.1.50
+2026-02-22T17:48:50.659Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.76285.1771782530659
+2026-02-22T17:48:50.659Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T17:48:50.659Z [DEBUG] Temp file written successfully, size: 383 bytes
+2026-02-22T17:48:50.659Z [DEBUG] Applied original permissions to temp file
+2026-02-22T17:48:50.659Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.76285.1771782530659 to /Users/brendan/.claude.json
+2026-02-22T17:48:50.659Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T17:48:50.659Z [DEBUG] Native installer: Set installMethod to "native" and disabled legacy auto-updater for protection
+2026-02-22T17:48:50.659Z [DEBUG] Install: installLatest returned version=2.1.50, wasUpdated=true, lockFailed=false
+2026-02-22T17:48:50.661Z [DEBUG] Install: Setup launcher completed with 1 messages
+2026-02-22T17:48:50.661Z [DEBUG] Install: Setup message: Native installation exists but ~/.local/bin is not in your PATH. Run:
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+2026-02-22T17:48:50.661Z [DEBUG] Install: Cleaning up npm installations after successful install
+2026-02-22T17:48:51.116Z [DEBUG] Removed global npm installation of @anthropic-ai/claude-code
+2026-02-22T17:48:51.116Z [DEBUG] Cleaned up 1 npm installation(s)

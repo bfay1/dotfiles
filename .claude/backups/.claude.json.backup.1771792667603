@@ -1,0 +1,116 @@
+{
+  "numStartups": 1,
+  "installMethod": "native",
+  "autoUpdates": false,
+  "theme": "dark-daltonized",
+  "cachedGrowthBookFeatures": {
+    "tengu_oboe": true,
+    "tengu_event_sampling_config": {},
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": true,
+    "tengu_penguins_enabled": true,
+    "tengu_worktree_mode": true,
+    "tengu_mcp_tool_search": true,
+    "tengu_marble_anvil": true,
+    "tengu_tool_pear": false,
+    "tengu_scarf_coffee": false,
+    "tengu_chomp_inflection": true,
+    "tengu_marble_sandcastle": true,
+    "tengu_penguins_off": null,
+    "tengu_streaming_text": false,
+    "tengu_silver_lantern": false,
+    "tengu_birthday_hat": true,
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": ""
+    },
+    "tengu_snippet_save": false,
+    "tengu_pr_status_cli": true,
+    "tengu_mcp_elicitation": false,
+    "tengu_keybinding_customization_release": true,
+    "tengu_post_compact_survey": false,
+    "tengu_copper_lantern": false,
+    "tengu_claudeai_mcp_connectors": true,
+    "tengu_pebble_leaf_prune": false,
+    "tengu_pid_based_version_locking": true
+  },
+  "firstStartTime": "2026-02-22T17:48:35.565Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "userID": "2bf40a3c2492b66fa6d183226025f1a5689727efc2423e79fe55b2bba2c3ad47",
+  "cachedChromeExtensionInstalled": false,
+  "changelogLastFetched": 1771789817571,
+  "autoUpdatesProtectedForNative": true,
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1771789785589
+  },
+  "oauthAccount": {
+    "accountUuid": "ac98751e-614c-4d29-8e59-0691c75531b3",
+    "emailAddress": "jbrendanfay@gmail.com",
+    "organizationUuid": "ba30d2a9-9ebb-43d0-a98d-31676679fc0d",
+    "hasExtraUsageEnabled": false,
+    "billingType": "stripe_subscription",
+    "subscriptionCreatedAt": "2026-02-22T19:48:08.129977Z",
+    "displayName": "Brendan",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "jbrendanfay@gmail.com's Organization"
+  },
+  "claudeCodeFirstTokenDate": "2026-02-22T19:50:05.544219Z",
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.50",
+  "lastReleaseNotesSeen": "2.1.50",
+  "projects": {
+    "/Users/brendan": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 874066,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.1,
+      "lastFpsLow1Pct": 143.82,
+      "lastModelUsage": {},
+      "lastSessionId": "e479667d-6640-4fde-8c37-b1a993873a11",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 65,
+        "frame_duration_ms_min": 0.21966599999723257,
+        "frame_duration_ms_max": 6.9529999999999745,
+        "frame_duration_ms_avg": 1.8140377692316545,
+        "frame_duration_ms_p50": 0.8513329999999542,
+        "frame_duration_ms_p95": 5.172767199999725,
+        "frame_duration_ms_p99": 6.82934688000003
+      }
+    }
+  },
+  "hasShownOpus46Notice": {
+    "ba30d2a9-9ebb-43d0-a98d-31676679fc0d": true
+  },
+  "penguinModeOrgEnabled": false,
+  "groveConfigCache": {
+    "ac98751e-614c-4d29-8e59-0691c75531b3": {
+      "grove_enabled": true,
+      "timestamp": 1771789817835
+    }
+  },
+  "cachedExtraUsageDisabledReason": "org_level_disabled",
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true
+}
