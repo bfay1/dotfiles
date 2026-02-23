@@ -1,7 +1,0 @@
-ll
-ls -l
-ls Pictures
-exit
-neofetch
-brew install neofetch
-exit
