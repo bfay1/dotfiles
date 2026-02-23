@@ -2,8 +2,8 @@
 .DS_Store
 .cache/
 .claude/plugins/marketplaces/
-.config/
 .cursor/
+.config/raycast/
 .local/
 .npm/
 .ssh/
