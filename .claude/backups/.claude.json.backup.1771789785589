@@ -1,0 +1,11 @@
+{
+  "installMethod": "native",
+  "autoUpdates": false,
+  "firstStartTime": "2026-02-22T17:48:35.565Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "userID": "2bf40a3c2492b66fa6d183226025f1a5689727efc2423e79fe55b2bba2c3ad47",
+  "cachedChromeExtensionInstalled": false,
+  "changelogLastFetched": 1771782515699,
+  "autoUpdatesProtectedForNative": true
+}

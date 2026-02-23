@@ -1,0 +1,327 @@
+2026-02-22T20:37:47.302Z [DEBUG] Failed to check enabledPlatforms: TypeError: undefined is not an object (evaluating 'pK.join')
+2026-02-22T20:37:47.360Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-22T20:37:47.360Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-22T20:37:47.360Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-22T20:37:47.360Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-22T20:37:47.363Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-02-22T20:37:47.366Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-02-22T20:37:47.366Z [DEBUG] [STARTUP] Running setup()...
+2026-02-22T20:37:47.369Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/brendan/.claude/skills, project=[]
+2026-02-22T20:37:47.369Z [DEBUG] Error log sink initialized
+2026-02-22T20:37:47.372Z [DEBUG] [STARTUP] setup() completed in 6ms
+2026-02-22T20:37:47.372Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-02-22T20:37:47.372Z [DEBUG] Git remote URL: null
+2026-02-22T20:37:47.372Z [DEBUG] No git remote URL found
+2026-02-22T20:37:47.373Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-22T20:37:47.375Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default
+2026-02-22T20:37:47.375Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-22T20:37:47.375Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-22T20:37:47.375Z [DEBUG] Total plugin skills loaded: 0
+2026-02-22T20:37:47.375Z [DEBUG] Total plugin commands loaded: 0
+2026-02-22T20:37:47.375Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-22T20:37:47.375Z [DEBUG] Total plugin agents loaded: 0
+2026-02-22T20:37:47.376Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-22T20:37:47.376Z [DEBUG] [STARTUP] Commands and agents loaded in 4ms
+2026-02-22T20:37:47.376Z [DEBUG] Acquired PID lock for 2.1.50 (PID 92910)
+2026-02-22T20:37:47.376Z [DEBUG] Acquired PID lock on running version: /Users/brendan/.local/share/claude/versions/2.1.50
+2026-02-22T20:37:47.384Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-02-22T20:37:47.386Z [DEBUG] [keybindings] KeybindingSetup initialized with 103 bindings, 0 warnings
+2026-02-22T20:37:47.399Z [DEBUG] [keybindings] Watching for changes to /Users/brendan/.claude/keybindings.json
+2026-02-22T20:37:47.408Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-22T20:37:47.604Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792667604
+2026-02-22T20:37:47.604Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:47.604Z [DEBUG] Temp file written successfully, size: 3937 bytes
+2026-02-22T20:37:47.604Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:47.604Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792667604 to /Users/brendan/.claude.json
+2026-02-22T20:37:47.605Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:47.718Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792667718
+2026-02-22T20:37:47.718Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:47.718Z [DEBUG] Temp file written successfully, size: 3868 bytes
+2026-02-22T20:37:47.718Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:47.718Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792667718 to /Users/brendan/.claude.json
+2026-02-22T20:37:47.719Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:49.381Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792669381
+2026-02-22T20:37:49.381Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:49.382Z [DEBUG] Temp file written successfully, size: 4257 bytes
+2026-02-22T20:37:49.382Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:49.382Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792669381 to /Users/brendan/.claude.json
+2026-02-22T20:37:49.382Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:49.386Z [DEBUG] Grove: Using fresh cached config
+2026-02-22T20:37:49.386Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-02-22T20:37:49.401Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-02-22T20:37:49.401Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-02-22T20:37:49.647Z [DEBUG] [STARTUP] showSetupScreens() completed in 2263ms
+2026-02-22T20:37:49.647Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-02-22T20:37:49.648Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-02-22T20:37:49.648Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-02-22T20:37:49.648Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-22T20:37:49.648Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-22T20:37:49.651Z [DEBUG] Total LSP servers loaded: 0
+2026-02-22T20:37:49.651Z [DEBUG] [STARTUP] MCP configs loaded in 2288ms
+2026-02-22T20:37:49.655Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-02-22T20:37:49.655Z [DEBUG] LSP manager initialized with 0 servers
+2026-02-22T20:37:49.655Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-22T20:37:49.657Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-02-22T20:37:49.657Z [DEBUG] Found 0 hook matchers in settings
+2026-02-22T20:37:49.657Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-02-22T20:37:49.657Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-02-22T20:37:49.657Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-02-22T20:37:49.658Z [DEBUG] LSP server manager initialized successfully
+2026-02-22T20:37:49.658Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-02-22T20:37:49.659Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-02-22T20:37:49.660Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792669660
+2026-02-22T20:37:49.660Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:49.661Z [DEBUG] Temp file written successfully, size: 4257 bytes
+2026-02-22T20:37:49.661Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:49.661Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792669660 to /Users/brendan/.claude.json
+2026-02-22T20:37:49.661Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:49.680Z [DEBUG] [keybindings] KeybindingSetup initialized with 103 bindings, 0 warnings
+2026-02-22T20:37:49.696Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792669696
+2026-02-22T20:37:49.696Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:49.696Z [DEBUG] Temp file written successfully, size: 4291 bytes
+2026-02-22T20:37:49.696Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:49.696Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792669696 to /Users/brendan/.claude.json
+2026-02-22T20:37:49.697Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:49.698Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-02-22T20:37:49.698Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-02-22T20:37:49.698Z [DEBUG] performStartupChecks called
+2026-02-22T20:37:49.699Z [DEBUG] Starting background plugin installations
+2026-02-22T20:37:49.699Z [DEBUG] performBackgroundPluginInstallations called
+2026-02-22T20:37:49.699Z [DEBUG] No CLAUDE.md/rules files found
+2026-02-22T20:37:49.700Z [DEBUG] Watching for changes in setting files /Users/brendan/.claude/settings.json...
+2026-02-22T20:37:49.700Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-02-22T20:37:49.700Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-02-22T20:37:49.979Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-02-22T20:37:49.981Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-02-22T20:37:49.981Z [DEBUG] [claudeai-mcp] Gate returned: true
+2026-02-22T20:37:49.981Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-02-22T20:37:49.983Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-02-22T20:37:49.985Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-02-22T20:37:49.987Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-02-22T20:37:49.991Z [DEBUG] Security messages are fresh (<1h old), skipping fetch
+2026-02-22T20:37:49.992Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-02-22T20:37:50.001Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.006Z [DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+2026-02-22T20:37:50.007Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-02-22T20:37:50.007Z [DEBUG] [claudeai-mcp] Gate returned: true
+2026-02-22T20:37:50.007Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-02-22T20:37:50.009Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-02-22T20:37:50.010Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.012Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.013Z [DEBUG] MCP server "ide": Successfully connected to ws-ide server in 8ms
+2026-02-22T20:37:50.013Z [DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":true,"hasResourceSubscribe":true,"serverVersion":{"name":"claudecode-neovim","version":"0.2.0"}}
+2026-02-22T20:37:50.013Z [DEBUG] [MCP] Server "ide" connected with subscribe=true
+2026-02-22T20:37:50.015Z [ERROR] MCP server "ide" Failed to fetch resources: MCP error -32601: Method not found
+2026-02-22T20:37:50.016Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.017Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.107Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-02-22T20:37:50.133Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-02-22T20:37:50.254Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/brendan/.local/share/claude/versions/2.1.50)
+2026-02-22T20:37:50.264Z [DEBUG] Checking for native installer update to version 2.1.50
+2026-02-22T20:37:50.265Z [DEBUG] Found 2.1.50 at /Users/brendan/.local/bin/claude, skipping install
+2026-02-22T20:37:50.266Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:50.387Z [DEBUG] [FileIndex] ripgrep: 1 files in 404ms
+2026-02-22T20:37:50.494Z [DEBUG] [FileIndex] cache refresh completed in 794ms (rust index)
+2026-02-22T20:37:51.250Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.312Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.354Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.452Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-02-22T20:37:52.452Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-02-22T20:37:52.453Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-02-22T20:37:52.453Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-02-22T20:37:52.454Z [DEBUG] Sending 2 skills via attachment (initial, 2 total sent)
+2026-02-22T20:37:52.455Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-02-22T20:37:52.458Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672458
+2026-02-22T20:37:52.458Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.459Z [DEBUG] Temp file written successfully, size: 4329 bytes
+2026-02-22T20:37:52.459Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.459Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672458 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.459Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.459Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-02-22T20:37:52.460Z [DEBUG] Found 0 hook matchers in settings
+2026-02-22T20:37:52.460Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-02-22T20:37:52.460Z [DEBUG] FileHistory: Added snapshot for 638ca960-3179-4b1b-9e94-a8bc53e2879e, tracking 0 files
+2026-02-22T20:37:52.464Z [DEBUG] [useDeferredValue] Messages deferred by 2 (0→2)
+2026-02-22T20:37:52.470Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.471Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.478Z [DEBUG] Started caffeinate to prevent sleep
+2026-02-22T20:37:52.478Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2026-02-22T20:37:52.479Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-02-22T20:37:52.482Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672482
+2026-02-22T20:37:52.482Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.482Z [DEBUG] Temp file written successfully, size: 4329 bytes
+2026-02-22T20:37:52.482Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.482Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672482 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.482Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.483Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672483
+2026-02-22T20:37:52.483Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.483Z [DEBUG] Temp file written successfully, size: 4360 bytes
+2026-02-22T20:37:52.483Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.483Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672483 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.483Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.484Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672484
+2026-02-22T20:37:52.484Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.485Z [DEBUG] Temp file written successfully, size: 4427 bytes
+2026-02-22T20:37:52.485Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.485Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672484 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.485Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.486Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.50.d4b; cc_entrypoint=cli; cch=00000;
+2026-02-22T20:37:52.486Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.486Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-22T20:37:52.486Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-22T20:37:52.486Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672486
+2026-02-22T20:37:52.486Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.487Z [DEBUG] Temp file written successfully, size: 4462 bytes
+2026-02-22T20:37:52.487Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.487Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672486 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.487Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.488Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672488
+2026-02-22T20:37:52.488Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.488Z [DEBUG] Temp file written successfully, size: 4508 bytes
+2026-02-22T20:37:52.488Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.488Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672488 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.488Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.488Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.488Z [DEBUG] Total plugin output styles loaded: 0
+2026-02-22T20:37:52.489Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672489
+2026-02-22T20:37:52.489Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.489Z [DEBUG] Temp file written successfully, size: 4546 bytes
+2026-02-22T20:37:52.489Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.489Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672489 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.489Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.489Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-22T20:37:52.489Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.491Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 13ms
+2026-02-22T20:37:52.492Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672492
+2026-02-22T20:37:52.492Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.492Z [DEBUG] Temp file written successfully, size: 4579 bytes
+2026-02-22T20:37:52.492Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.492Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672492 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.492Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.492Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672492
+2026-02-22T20:37:52.492Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.493Z [DEBUG] Temp file written successfully, size: 4610 bytes
+2026-02-22T20:37:52.493Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.493Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672492 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.493Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.493Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672493
+2026-02-22T20:37:52.493Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.493Z [DEBUG] Temp file written successfully, size: 4638 bytes
+2026-02-22T20:37:52.493Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.493Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672493 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.493Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.494Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672494
+2026-02-22T20:37:52.494Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.494Z [DEBUG] Temp file written successfully, size: 4638 bytes
+2026-02-22T20:37:52.494Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.494Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672494 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.494Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.495Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672495
+2026-02-22T20:37:52.495Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.495Z [DEBUG] Temp file written successfully, size: 4669 bytes
+2026-02-22T20:37:52.495Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.495Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672495 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.495Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.496Z [DEBUG] autocompact: tokens=482 threshold=167000 effectiveWindow=180000
+2026-02-22T20:37:52.496Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672496
+2026-02-22T20:37:52.496Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.497Z [DEBUG] Temp file written successfully, size: 4706 bytes
+2026-02-22T20:37:52.497Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.497Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672496 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.497Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.498Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672498
+2026-02-22T20:37:52.498Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.498Z [DEBUG] Temp file written successfully, size: 4751 bytes
+2026-02-22T20:37:52.498Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.498Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672498 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.498Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.499Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672499
+2026-02-22T20:37:52.499Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.499Z [DEBUG] Temp file written successfully, size: 4776 bytes
+2026-02-22T20:37:52.499Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.499Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672499 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.499Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.499Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-22T20:37:52.499Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-22T20:37:52.499Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-22T20:37:52.506Z [DEBUG] [useDeferredValue] Messages deferred by 2 (0→2)
+2026-02-22T20:37:52.507Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.512Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.693Z [DEBUG] Tool search disabled via experiment (tengu_tst_kx7): below threshold, deferred tools present [source: query]
+2026-02-22T20:37:52.697Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672697
+2026-02-22T20:37:52.697Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.698Z [DEBUG] Temp file written successfully, size: 4804 bytes
+2026-02-22T20:37:52.698Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.698Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672697 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.698Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.699Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672699
+2026-02-22T20:37:52.699Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.699Z [DEBUG] Temp file written successfully, size: 4850 bytes
+2026-02-22T20:37:52.699Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.699Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672699 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.700Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.700Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672700
+2026-02-22T20:37:52.700Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.700Z [DEBUG] Temp file written successfully, size: 4850 bytes
+2026-02-22T20:37:52.700Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.700Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672700 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.700Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.701Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.50.b97; cc_entrypoint=cli; cch=00000;
+2026-02-22T20:37:52.701Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.701Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-22T20:37:52.701Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-22T20:37:52.702Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792672702
+2026-02-22T20:37:52.702Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:52.702Z [DEBUG] Temp file written successfully, size: 4967 bytes
+2026-02-22T20:37:52.702Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:52.702Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792672702 to /Users/brendan/.claude.json
+2026-02-22T20:37:52.702Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:52.703Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.703Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-22T20:37:52.703Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.705Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:52.981Z [DEBUG] Stream started - received first chunk
+2026-02-22T20:37:53.519Z [DEBUG] Stream started - received first chunk
+2026-02-22T20:37:53.522Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:53.619Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:53.830Z [DEBUG] Successfully refreshed marketplace: claude-plugins-official
+2026-02-22T20:37:53.830Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-02-22T20:37:54.501Z [DEBUG] [onCancel] focusedInputDialog=undefined streamMode=thinking
+2026-02-22T20:37:54.504Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792674504
+2026-02-22T20:37:54.504Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:54.505Z [DEBUG] Temp file written successfully, size: 5016 bytes
+2026-02-22T20:37:54.505Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:54.505Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792674504 to /Users/brendan/.claude.json
+2026-02-22T20:37:54.505Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:54.507Z [ERROR] Stream completed with message_start but no content blocks completed - triggering non-streaming fallback
+2026-02-22T20:37:54.510Z [ERROR] Error streaming, falling back to non-streaming mode: Stream ended without receiving any events
+2026-02-22T20:37:54.511Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792674511
+2026-02-22T20:37:54.511Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:54.511Z [DEBUG] Temp file written successfully, size: 5080 bytes
+2026-02-22T20:37:54.511Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:54.511Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792674511 to /Users/brendan/.claude.json
+2026-02-22T20:37:54.512Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:54.512Z [ERROR] Error in API request: Request was aborted.
+2026-02-22T20:37:54.512Z [ERROR] Error: Error: Request was aborted.
+    at rhR (/$bunfs/root/claude:1392:50903)
+    at next (native:1:11)
+    at saB (/$bunfs/root/claude:5022:5869)
+    at next (native:1:11)
+    at TrB (/$bunfs/root/claude:5027:9125)
+    at processTicksAndRejections (native:7:39)
+2026-02-22T20:37:54.514Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792674514
+2026-02-22T20:37:54.514Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:54.515Z [DEBUG] Temp file written successfully, size: 5118 bytes
+2026-02-22T20:37:54.515Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:54.515Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792674514 to /Users/brendan/.claude.json
+2026-02-22T20:37:54.515Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:54.516Z [DEBUG] Writing to temp file: /Users/brendan/.claude.json.tmp.92910.1771792674516
+2026-02-22T20:37:54.516Z [DEBUG] Preserving file permissions: 100600
+2026-02-22T20:37:54.517Z [DEBUG] Temp file written successfully, size: 5143 bytes
+2026-02-22T20:37:54.517Z [DEBUG] Applied original permissions to temp file
+2026-02-22T20:37:54.517Z [DEBUG] Renaming /Users/brendan/.claude.json.tmp.92910.1771792674516 to /Users/brendan/.claude.json
+2026-02-22T20:37:54.517Z [DEBUG] File /Users/brendan/.claude.json written atomically
+2026-02-22T20:37:54.518Z [DEBUG] [useDeferredValue] Messages deferred by 1 (2→3)
+2026-02-22T20:37:54.522Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-22T20:37:54.526Z [DEBUG] Stopped caffeinate, allowing sleep
+2026-02-22T20:37:54.535Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
