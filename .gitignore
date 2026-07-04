@@ -1,11 +1,21 @@
 .CFUserTextEncoding
 .DS_Store
 .cache/
+.cagent/
 .claude/plugins/marketplaces/
+.config/cagent/
+.config/gh/
+.cups/
 .cursor/
+.claude/
 .config/raycast/
+.docker/
+.homebrew/
 .local/
 .npm/
+.openclaw/
+.rumble-poller.log
+.rumble_archive.txt
 .ssh/
 .tmux/plugins/tokyo-night-tmux/
 .viminfo
@@ -21,4 +31,14 @@ Movies/
 Music/
 Pictures/
 Public/
+blartclaw/
+chinese/
+dashboard/
 thing/
+
+# nested project artifacts (kept out of tracked project dirs)
+rumble-poller/venv/
+autopilot-qa/backend/venv/
+autopilot-qa/backend/__pycache__/
+autopilot-qa/backend/.env
+autopilot-qa/frontend/node_modules/
