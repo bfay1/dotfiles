@@ -35,6 +35,7 @@ blartclaw/
 chinese/
 dashboard/
 thing/
+wallpaper/
 
 # nested project artifacts (kept out of tracked project dirs)
 rumble-poller/venv/
