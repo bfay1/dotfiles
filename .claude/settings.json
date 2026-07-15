@@ -13,7 +13,12 @@
       "Bash(npm run test:*)",
       "Bash(npm run typecheck:*)",
       "Bash(ls:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(npx tsc --noEmit:*)",
+      "Bash(npx vercel logs:*)",
+      "Bash(brew outdated:*)",
+      "Bash(git -C /Users/brendan/resume/website log:*)",
+      "Bash(open /Users/brendan/resume/website/index.html:*)"
     ],
     "deny": [
       "Bash(git push --force:*)",

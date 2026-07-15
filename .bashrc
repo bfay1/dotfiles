@@ -82,6 +82,13 @@ if [ -x /usr/bin/dircolors ]; then
   alias grep='grep --color=auto'
   alias fgrep='fgrep --color=auto'
   alias egrep='egrep --color=auto'
+elif [ "$(uname)" = "Darwin" ]; then
+  # macOS BSD ls/grep use -G / --color=auto differently than GNU coreutils
+  alias ls='ls -G'
+  alias ll='ls -alF'
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
 fi
 
 long_ls() {
@@ -100,11 +107,15 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias lls=$"long_ls ${1}"
+alias lls='long_ls'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+if command -v notify-send >/dev/null 2>&1; then
+  alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+elif command -v osascript >/dev/null 2>&1; then
+  alias alert='osascript -e "display notification \"$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')\" with title \"$([ $? = 0 ] && echo Done || echo Error)\""'
+fi
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -125,6 +136,10 @@ if ! shopt -oq posix; then
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
+  elif [ -f /opt/homebrew/etc/profile.d/bash_completion.sh ]; then
+    . /opt/homebrew/etc/profile.d/bash_completion.sh
+  elif [ -f /usr/local/etc/profile.d/bash_completion.sh ]; then
+    . /usr/local/etc/profile.d/bash_completion.sh
   fi
 fi
 
@@ -142,3 +157,4 @@ gitinit() {
 
 alias gitinit="gitinit "
 alias claude="claude --dangerously-skip-permissions"
+alias code='nvim'
