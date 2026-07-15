@@ -39,6 +39,11 @@ gitinit() {
   git push --set-upstream origin master
 }
 
+# Manage the dotfiles bare repo (checked out with --work-tree=$HOME) without
+# cluttering $HOME with a .git directory. Use like a normal git command:
+#   dotgit status / dotgit add .vimrc / dotgit commit / dotgit push
+alias dotgit='git --git-dir=$HOME/.dotfiles-bare --work-tree=$HOME'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
