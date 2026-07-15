@@ -35,6 +35,10 @@ blartclaw/
 chinese/
 dashboard/
 thing/
+.Trash/
+
+.claude.json
+.config/nvim/lazy-lock.json
 
 # nested project artifacts (kept out of tracked project dirs)
 rumble-poller/venv/
