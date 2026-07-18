@@ -18,6 +18,7 @@
 .rumble_archive.txt
 .ssh/
 .tmux/plugins/tokyo-night-tmux/
+.tmux/plugins/tmux-gruvbox/
 .viminfo
 .zprofile
 .zsh_history
