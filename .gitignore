@@ -47,3 +47,6 @@ include/
 resume/
 rumble-poller/
 autopilot-qa/
+
+# leaked credential file, kept locally only
+.netrc
