@@ -35,10 +35,15 @@ blartclaw/
 chinese/
 dashboard/
 thing/
+.Trash/
 
-# nested project artifacts (kept out of tracked project dirs)
-rumble-poller/venv/
-autopilot-qa/backend/venv/
-autopilot-qa/backend/__pycache__/
-autopilot-qa/backend/.env
-autopilot-qa/frontend/node_modules/
+.claude.json
+.config/nvim/lazy-lock.json
+
+# personal project dirs (not dotfiles)
+cp/
+ig/
+include/
+resume/
+rumble-poller/
+autopilot-qa/
