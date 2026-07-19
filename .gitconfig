@@ -8,3 +8,5 @@
 	email = jbrendanfay@gmail.com
 [core]
 	excludesfile = /Users/brendan/.config/git/ignore
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig-work

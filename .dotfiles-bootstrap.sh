@@ -41,5 +41,26 @@ fi
 
 dotgit submodule update --init --recursive
 
+# Homebrew + the packages/casks/npm globals this machine had installed.
+if ! command -v brew >/dev/null 2>&1; then
+  echo "Homebrew not found; installing it..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+if [ -f "$HOME/Brewfile" ]; then
+  brew bundle install --file="$HOME/Brewfile"
+fi
+
+# Work git identity: .gitconfig conditionally includes ~/.gitconfig-work for
+# anything under ~/work/, but that file itself isn't tracked (it'd expose a
+# work email in a public repo), so it needs to be created on each machine.
+if [ ! -f "$HOME/.gitconfig-work" ]; then
+  read -r -p "Work git email for repos under ~/work/ (blank to skip): " work_email
+  if [ -n "$work_email" ]; then
+    mkdir -p "$HOME/work"
+    printf '[user]\n\temail = %s\n' "$work_email" > "$HOME/.gitconfig-work"
+  fi
+fi
+
 echo "Done. Open a new shell (or 'source ~/.zshrc') to get the 'dotgit' alias."
 echo "If any pre-existing files got backed up, they're in: $BACKUP_DIR"

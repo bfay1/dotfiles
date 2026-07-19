@@ -51,3 +51,6 @@ autopilot-qa/
 
 # leaked credential file, kept locally only
 .netrc
+
+# machine-local git identity override (not published: contains work info)
+.gitconfig-work
