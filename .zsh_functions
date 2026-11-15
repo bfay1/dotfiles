@@ -1,0 +1,145 @@
+# Shell functions (sourced from ~/.zshrc)
+
+# Download audio as wav into ~/Music.
+#   dl <url>          -> named after the video title
+#   dl <name> <url>   -> named <name>
+dl() {
+  local name url
+  case $# in
+    1) name='%(title)s'; url=$1 ;;
+    2) name=$1; url=$2 ;;
+    *) echo "usage: dl [name] <url>" >&2; return 1 ;;
+  esac
+  yt-dlp -x --audio-format wav --no-playlist -o "$HOME/Music/$name.%(ext)s" "$url"
+}
+
+# dict: search the system English dictionary (/usr/share/dict/words)
+#   dict foo      words containing "foo"
+#   dict -s foo   words starting with "foo"
+#   dict -e foo   words ending with "foo"
+#   dict -x foo   exact match (exit status 0/1)
+#   dict -r 're'  extended regex (e.g. dict -r '^a.{3}z$')
+dict() {
+  local file=/usr/share/dict/words mode=contains
+  case "$1" in
+    -s) mode=start; shift ;;
+    -e) mode=end;   shift ;;
+    -x) mode=exact; shift ;;
+    -r) mode=regex; shift ;;
+  esac
+  [[ -z "$1" ]] && { echo "usage: dict [-s|-e|-x|-r] pattern" >&2; return 2; }
+  case $mode in
+    contains) grep -i -- "$1" "$file" ;;
+    start)    grep -i -- "^$1" "$file" ;;
+    end)      grep -i -- "$1\$" "$file" ;;
+    exact)    grep -i -x -q -- "$1" "$file" && echo "$1: yes" || { echo "$1: no"; return 1; } ;;
+    regex)    grep -i -E -- "$1" "$file" ;;
+  esac
+}
+
+# Long ls with a header row (used by the lls alias)
+long_ls() {
+  local VAR="Permissions|Owner|Group|Size|Modified|Name"
+  if [ ! "${1}" ]; then
+    echo -e "$VAR" | column -t -s"|" && ls -l
+  else
+    echo -e "$VAR" | column -t -s"|" && ls -l "${1}"
+  fi
+}
+
+gitinit() {
+  git init .
+  git add .
+  git commit -m "first commit"
+  git remote add origin $1
+  git push --set-upstream origin master
+}
+
+# Grab a section of a rumble.com stream as a tagged MP3, ready to drop on a
+# phone. Wraps `rumble-clip -a` (audio-only, downloaded without re-encoding)
+# and then encodes exactly once, so the result is two generations from source
+# rather than four. Override the bitrate with RUMBLE_MP3_BITRATE=192k.
+#   rumble-mp3 <url> <start> [end]
+#   rumble-mp3 https://rumble.com/v7e1pqm-....html 1:48:00
+rumble-mp3() {
+  emulate -L zsh
+  local url=$1 start=$2 end=$3
+
+  if [[ -z $url || -z $start ]]; then
+    print -u2 "usage: rumble-mp3 <url> <start> [end]   # times as SS, MM:SS, or HH:MM:SS"
+    return 1
+  fi
+
+  local -a meta
+  meta=("${(@f)$(yt-dlp --no-playlist \
+    --print '%(title)s' \
+    --print '%(uploader)s' \
+    --print '%(upload_date>%Y-%m-%d)s' "$url")}") || return 1
+  local title=$meta[1] uploader=$meta[2] date=$meta[3]
+  [[ $date == NA ]] && date=""
+
+  local tmp
+  tmp=$(mktemp -d) || return 1
+
+  if ! rumble-clip "$url" "$start" ${end:+"$end"} -a -o "$tmp/audio.m4a"; then
+    rm -rf "$tmp"
+    return 1
+  fi
+
+  # Title -> filename-safe slug, matching rumble-clip's own naming convention.
+  # zsh does not word-split unquoted expansions, so a conditional flag pair has
+  # to be built as an array or ffmpeg receives it as one mangled argument.
+  local -a date_arg=()
+  [[ -n $date ]] && date_arg=(-metadata date="$date")
+
+  local slug label out
+  slug=$(print -rn -- "$title" | tr -c '[:alnum:]' '_' | tr -s '_')
+  slug=${slug%_}
+  label=${start//:/-}
+  [[ -n $end ]] && label+="_to_${end//:/-}"
+  out="${slug:0:100}_${label}.mp3"
+
+  if ! ffmpeg -y -v warning -stats -i "$tmp/audio.m4a" \
+    -c:a libmp3lame -b:a "${RUMBLE_MP3_BITRATE:-160k}" -id3v2_version 3 \
+    -metadata title="$title" \
+    -metadata artist="$uploader" \
+    "${date_arg[@]}" \
+    -metadata comment="$url @ $start" \
+    "$out"; then
+    rm -rf "$tmp"
+    return 1
+  fi
+
+  rm -rf "$tmp"
+  print "rumble-mp3: wrote $out"
+}
+
+# Start Claude Code with permissions skipped (replaces the old `cc` alias).
+#   cc [-n|--name <name>] [-w|--worktree <name>] [-e|--effort <level>] [claude args...]
+# Anything not recognised is passed straight through to claude.
+cc() {
+  emulate -L zsh
+  local -a args=()
+  while (( $# )); do
+    case $1 in
+      -n|--name|-w|--worktree|-e|--effort)
+        if [[ -z $2 || $2 == -* ]]; then
+          print -u2 "cc: $1 requires a value"
+          return 2
+        fi
+        case $1 in
+          -n|--name)     args+=(--name "$2") ;;
+          -w|--worktree) args+=(--worktree "$2") ;;
+          -e|--effort)   args+=(--effort "$2") ;;
+        esac
+        shift 2 ;;
+      --name=*|--worktree=*|--effort=*)
+        args+=("$1"); shift ;;
+      --)
+        shift; args+=("$@"); break ;;
+      *)
+        args+=("$1"); shift ;;
+    esac
+  done
+  command claude --dangerously-skip-permissions "${args[@]}"
+}

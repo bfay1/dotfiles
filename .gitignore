@@ -1,0 +1,73 @@
+.CFUserTextEncoding
+.DS_Store
+.cache/
+.cagent/
+.claude/plugins/marketplaces/
+.config/cagent/
+.config/gh/
+.cups/
+.cursor/
+.claude/
+.config/raycast/
+.docker/
+.homebrew/
+.local/
+.npm/
+.openclaw/
+.rumble-poller.log
+.rumble_archive.txt
+.ssh/
+.tmux/plugins/tokyo-night-tmux/
+.tmux/plugins/tmux-gruvbox/
+.viminfo
+.zprofile
+.zsh_history
+.zsh_sessions/
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+blartclaw/
+chinese/
+dashboard/
+thing/
+.Trash/
+
+.claude.json
+
+# personal project dirs (not dotfiles)
+cp/
+ig/
+include/
+resume/
+rumble-poller/
+autopilot-qa/
+
+# leaked credential file, kept locally only
+.netrc
+
+# machine-local overrides (untracked)
+.gitconfig.local
+.zshrc.local
+
+# AWS CLI config + SSO/login session cache (contains credentials — never publish)
+.aws/
+
+# the dotfiles bare repo's own git directory (lives in $HOME, must not be tracked)
+.dotfiles-bare/
+
+# misc machine-local state
+.claude.json.backup
+.config/git/gitk
+
+# machine-local state / caches / credentials
+.bash_sessions/
+.config/qBittorrent/
+.config/stripe/
+.config/zed/embeddings/
+.config/zed/prompts/

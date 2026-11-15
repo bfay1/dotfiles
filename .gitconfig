@@ -1,0 +1,33 @@
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	si = switch
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	visual = !gitk
+[user]
+	name = brendan
+	email = jbrendanfay@gmail.com
+[core]
+	excludesfile = /Users/brendan/.config/git/ignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	autoSetupRemote = true
+[rerere]
+	enabled = true
+	autoupdate = true
+[rebase]
+	autoStash = true
+	updateRefs = true
+[branch]
+	autoSetupMerge = simple
+[include]
+	path = ~/.gitconfig.local
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig-work

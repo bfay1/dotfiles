@@ -1,0 +1,50 @@
+# Aliases. Sourced from ~/.zshrc -- keep this file alias-only;
+# functions live in ~/.zsh_functions.
+
+# ls and friends
+alias ls='ls -G'
+alias ll='ls -alF'
+alias la='ls -A'
+alias lls='long_ls'          # long_ls() is defined in ~/.zsh_functions
+
+# grep with color
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# editors and shell
+alias vim='nvim'
+alias c='clear'
+alias e='exit'
+alias ez='vim ~/.zshrc'
+alias ea='vim ~/.zsh_aliases'
+alias sz='source ~/.zshrc'
+alias ef='vim ~/.zsh_functions'
+
+# tools
+alias dotgit='git --git-dir=$HOME/.dotfiles-bare --work-tree=$HOME'
+
+# python venvs
+alias activate='source .venv/bin/activate'
+
+# Notify when a long-running command finishes. Use like so:
+#   sleep 10; alert
+if command -v notify-send >/dev/null 2>&1; then
+  alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+elif command -v osascript >/dev/null 2>&1; then
+  alias alert='osascript -e "display notification \"$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')\" with title \"$([ $? = 0 ] && echo Done || echo Error)\""'
+fi
+
+# tmux
+alias work='tmux a -t work'
+
+# gog
+alias gmail='gog gmail'
+alias calendar='gog calendar'
+
+# structurizr
+alias structurizr='docker run -d --name structurizr-mcp --restart unless-stopped -p 3000:3000 -e PORT=3000 structurizr/mcp -dsl -mermaid -plantuml -server-read'
+
+# from the personal machine
+alias l='ls -CF'
+alias rz='exec ~/.zshrc'

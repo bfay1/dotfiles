@@ -1,0 +1,17 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[ui]
+default-command = "log"
+editor = "nvim"
+merge-editor = "nvimdiff"
+
+[merge-tools.nvimdiff]
+program = "nvim"
+merge-args = ["-f", "-d", "$output", "-M", "$left", "$base", "$right",
+              "-c", "wincmd J", "-c", "set modifiable", "-c", "set write",
+              "-c", "/<<<<<</+2"]
+merge-tool-edits-conflict-markers = true
+
+[user]
+name = "brendan"
+email = "jbrendanfay@gmail.com"
